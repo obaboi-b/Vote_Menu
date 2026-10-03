@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* รีเซ็ต Root ให้กว้างเต็มจอ 100% ไม่บีบขอบ */
+:root, html, body, #root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
